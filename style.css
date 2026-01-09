@@ -55,10 +55,12 @@ nav a {
 }
 
 .Banner-saction {
-    max-width: 1600px;
-    min-width: 92%;
+    
+    justify-content: center;
+
     height: 674px;
     background: url(assets/hero-bg.png);
+    align-items: center;
 
 }
 
@@ -70,6 +72,7 @@ nav a {
     border-radius: 1000px;
     border: none;
     background-color: #ffffff;
+    margin-top: 90px;
 }
 
 .banner-btn:hover {
@@ -86,14 +89,21 @@ nav a {
     font-weight: bold;
     color: #ffffff;
     margin-top: 16px;
+}
 
-
+.Banner-content{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .Banner-content span {
     color: #469165;
 
 }
+
 
 .Banner-content p {
     font-size: 18px;
@@ -126,6 +136,7 @@ nav a {
     background: none;
     font-size: 16px;
     font-weight: 600;
+    margin-top: 32px;
 
 }
 
@@ -143,20 +154,20 @@ nav a {
     border: 2px solid rgb(0, 0, 0);
 }
 
-.Banner-content {
-
-    margin: 0 auto;
-
+.bnr-btn{
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
+
 
 /* Cards Section */
 
 .cards-contents{
     padding-top: 50px;
-    align-items: center;
-    justify-content: center;
-    max-width: 1600px;
-    min-width: 92%;
+    /* max-width: 1600px;
+    min-width: 92%; */
+    margin: 0 80px 0 80px;
     
 }
 
@@ -173,11 +184,59 @@ nav a {
     color: #627382;
     margin-bottom: 25px;
     margin-left: 10px;
+}
 
+.Cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 50px 100px 0 100px; */
+}
+
+.card-1 img{
+   background-color: #F95555; 
+   padding: 15px;
+   border-radius: 100px;
+   margin-bottom: 16px;
+   
+}
+
+
+.card-1 h2{
+    font-size: 24px;
+    font-weight: 650;
+    color: #001931;
+    text-align: center;
+}
+
+.card-1 p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.card-1 {
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    width: 322px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+    margin-top: 40px;
 }
 
 .cards-text{
-    align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+
+/* Brain Section */
