@@ -240,3 +240,45 @@ nav a {
 
 
 /* Brain Section */
+
+.Brain-section{
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+    margin-top: 80px; 
+
+}
+
+.brain-contents h3{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+
+}
+
+.brain-contents h1{
+    font-size: 48px;
+    color: #001931;
+    font-weight: bold;
+}
+
+.brain-contents p{
+    font-size: 16px;
+    color: #627382;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+
+.brain-contents h4{
+    color: #001931;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin-left: 40px;
+    
+}
