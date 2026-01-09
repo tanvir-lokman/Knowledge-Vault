@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+}
+
+/* Header Section */
+
+nav {
+    display: flex;
+    max-width: 1600px;
+    width: 92%;
+    justify-content: space-between;
+    margin: auto;
+    padding: 30px 50px;
+    align-items: center;
+}
+
+#li-content {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 30px;
+
+}
+
+nav a:hover {
+    background-color: bisque;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+}
+
+.btn-1 {
+    padding: 16px 12px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #469165;
+}
+
+.btn-1:hover {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid brown;
+    
+}
+
+.Banner-saction {
+    max-width: 1600px;
+    -width: 92%;
+    height: 674px;
+    background: url(assets/hero-bg.png);
+
+}
+
+.banner-btn {
+    padding: 12px 8px;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 1000px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.banner-btn:hover{
+    /* border: 2px solid black; */
+    color: black;
+} 
+
+.banner-btn i {
+    margin-right: 10px;
+}
+
+.Banner-content h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 16px;
+    
+
+}
+
+.Banner-content span {
+    color: #469165;
+
+}
+
+.Banner-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.banner-btn-1 {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 25px;
+    margin-top: 32px;
+}
+
+.banner-btn-1 i{
+    margin-left: 8px;
+}
+
+.banner-btn-2 {
+    padding: 12px 16px;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.banner-btn-2 i{
+    margin-right: 10px;
+}
+
+.banner-btn-1:hover{
+    border: 2px solid #000000; 
+    color: black;  
+}
+ 
+.banner-btn-2:hover{
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.Banner-content{
+
+
+
+}
