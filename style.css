@@ -247,7 +247,8 @@ nav a {
     align-items: center;
     justify-content: center;
     margin-right: 60px;
-    margin-top: 80px; 
+    margin-top: 80px;
+    margin-bottom: 100px; 
 
 }
 
@@ -281,4 +282,87 @@ nav a {
     margin-bottom: 16px;
     margin-left: 40px;
     
+}
+
+ /* last section */
+
+ .last-section{
+    margin: 120px;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+ 
+.last-section h1{
+   color: #001931;
+   font-size: 40px;
+   font-weight: bold;
+   margin-bottom: 16px;
+}
+
+.last-section p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.last-sec-btn{
+    padding: 16px 12px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #469165;
+    margin-bottom: 16px;
+}
+
+.last-sec-btn i{
+    margin-left: 10px;
+
+}
+
+.last-sec-btn:hover{
+    color: #000000;
+    border: 2px solid black;
+}
+
+/* footer section  */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    padding: 120px;
+    background-color: #001931;
+}
+
+footer div{
+    justify-content: space-between;
+    display: flex;
+}
+
+
+footer i{
+    font-size: 40px;
+    color: white;
+    justify-content: end;
+    align-items: end;
+    ;
+}
+
+.footer-social h2{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer-socia{
+    display: flex;
+    flex-direction: column;
 }
